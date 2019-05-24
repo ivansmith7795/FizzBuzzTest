@@ -60,7 +60,7 @@ namespace FizzBuzzTest
                     Console.WriteLine("Buzz");
                 }
 
-                //if the number is divisible by both 3 but not 5, print out FizzBuzz
+                //if the number is divisible by both 3 and 5, print out FizzBuzz
                 if (isFizz && isBuzz)
                 {
                     Console.WriteLine("FizzBuzz");
