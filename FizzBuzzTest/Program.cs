@@ -26,21 +26,8 @@ namespace FizzBuzzTest
                 double divisible5 = (double)i / 5;
 
                 //setup our bool operators to test our Fizz or Buzz conditions
-                bool isFizz = false;
-                bool isBuzz = false;
-
-                //if the number is divisble by 3, then make it a Fizz
-                if (IsInteger(divisible3))
-                {
-                    isFizz = true;
-
-                }
-
-                //if the number is divisble by 5, then make it a Buzz
-                if (IsInteger(divisible5))
-                {
-                    isBuzz = true;
-                }
+                bool isFizz = IsInteger(divisible3);
+                bool isBuzz = IsInteger(divisible5);
 
                 //if the number isn't divisible by 3 or 5, print it out
                 if(!isFizz && !isBuzz)
