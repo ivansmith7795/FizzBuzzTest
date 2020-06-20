@@ -1,2 +1,2 @@
 # FizzBuzzTest
-Thursday, June 18, 2020
+Friday, June 19, 2020
